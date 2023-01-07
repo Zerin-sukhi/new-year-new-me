@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+.header{
+    background-image: url("../images/banner/banner1.png");
+    
+}
+.header-description{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: right;
+padding: 216px 200px;
+color: #151414;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 106px;
+    align-items: center;
+    padding: 0px 222px 300px;
+}
+.plan-title{
+    text-align: center;
+    font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+}
+.plan-description{
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 86px;
+    padding: 55px 200px;
+    color: #151414;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 330px;
+    padding: 130px 200px;
+}
+footer .footer-description{
+    color: white;
+}
